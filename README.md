@@ -6,11 +6,12 @@
 
 _Hint: the following installation commands assume you have [Node.js](https://nodejs.org/en/download/) and npm (included in Node.js) installed and have it available through PATH (when using Windows)._
 
+The following code can be run on windows from Git Bash Terminal:
+
 ```bash
 git clone https://github.com/graphstatevis/codebase.git
 cd codebase
-cd app
-npm install
+./run-development.sh
 ```
 
 ## Run application development environment
@@ -18,6 +19,8 @@ npm install
 GraphStateVis is a frontend-only application and does not use a database or require a backend at this point.
 
 ```bash
+cd app
+npm install
 npm run development
 ```
 
