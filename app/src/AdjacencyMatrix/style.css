@@ -1,0 +1,43 @@
+#adjacency-matrix-table thead tr th,
+#adjacency-matrix-table tbody tr td {
+    border: #aaa 1px solid;
+    width: 15px;
+    height: 15px;
+    text-align: center;
+    font-size: 10px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+#adjacency-matrix-div {
+    align-self: center;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+#adjacency-matrix-div .table-vertex {
+    font-weight: bolder;
+}
+
+#adjacency-matrix-div::-webkit-scrollbar {
+    display: none;
+}
+
+#adjacency-matrix-table {
+    margin: 0 auto;
+    align-self: center;
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+    vertical-align: middle;
+    /* width: 100%;
+    height: 100%; */
+    table-layout: fixed;
+}

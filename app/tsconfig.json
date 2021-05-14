@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "lib": [
+      "dom",
+      "esnext",
+      "webworker"
+    ],
+    "module": "commonjs",
+    "target": "esnext",
+    "sourceMap": true,
+    "typeRoots": [
+      "./src/@types"
+    ]
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}

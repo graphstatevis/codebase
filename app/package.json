@@ -1,0 +1,70 @@
+{
+    "name": "graph-state-vis",
+    "version": "0.1.0",
+    "description": "",
+    "main": "build/bundle.js",
+    "scripts": {
+        "development": "webpack-dev-server --host 0.0.0.0 --port 8082",
+        "production": "webpack --mode production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/DMillerIBM/graph_visualization.git"
+    },
+    "author": {
+        "name": "Daniel Miller",
+        "email": "dmi@zurich.ibm.com"
+    },
+    "license": "ISC",
+    "devDependencies": {
+        "@sentry/browser": "^5.13.0",
+        "@types/bootstrap": "^4.3.1",
+        "@types/d3": "^5.7.2",
+        "@types/file-saver": "^2.0.1",
+        "@types/html-webpack-plugin": "^3.2.1",
+        "@types/jquery": "^3.3.31",
+        "@types/node": "^12.12.21",
+        "@types/underscore": "^1.9.4",
+        "@types/webpack": "^4.41.0",
+        "@types/webpack-dev-server": "^3.9.0",
+        "awesome-typescript-loader": "^5.2.1",
+        "css-loader": "^3.4.0",
+        "file-loader": "^5.0.2",
+        "html-loader": "^0.5.5",
+        "html-webpack-externals-plugin": "^3.6.0",
+        "html-webpack-plugin": "^3.2.0",
+        "raw-loader": "^4.0.0",
+        "style-loader": "^1.0.2",
+        "ts-node": "^8.5.4",
+        "tslint": "^5.20.1",
+        "typescript": "^3.7.3",
+        "underscore": "^1.9.2",
+        "webpack": "^4.41.4",
+        "webpack-cli": "^3.3.10",
+        "webpack-dev-server": "^3.10.1",
+        "worker-loader": "^2.0.0"
+    },
+    "dependencies": {
+        "@phosphor/default-theme": "^0.1.8",
+        "@phosphor/widgets": "^1.9.3",
+        "bootstrap": "^4.4.1",
+        "bootstrap4-toggle": "^3.6.1",
+        "d3": "^5.14.2",
+        "d3-context-menu": "^1.1.2",
+        "d3-lasso": "0.0.5",
+        "d3-radial": "0.0.2",
+        "d3-svg-annotation": "^2.5.1",
+        "file-saver": "^2.0.2",
+        "hdsp": "0.0.27",
+        "jquery": "^3.4.1",
+        "jquery-ui": "^1.12.1",
+        "lodash-es": "^4.17.15",
+        "material-design-icons": "^3.0.1",
+        "ml-matrix": "^6.5.0",
+        "numeric": "^1.2.6",
+        "popper.js": "^1.16.0",
+        "tinycolor2": "^1.4.1",
+        "triple-beam": "^1.3.0",
+        "uuid": "^7.0.2"
+    }
+}

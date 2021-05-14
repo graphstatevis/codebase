@@ -1,0 +1,16 @@
+#settings-widget button {
+  margin-bottom: 16px;
+}
+
+#settings-widget button,
+#settings-widget input {
+  cursor: not-allowed;
+}
+
+#settings-widget > div {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  padding: 32px;
+  width: 100%;
+}

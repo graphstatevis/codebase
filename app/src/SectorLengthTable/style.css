@@ -1,0 +1,18 @@
+#sector-length-dist-table {
+    padding: 10px;
+}
+
+#split-for-optimal-size {
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    height: 40px;
+    margin-left: 120px;
+}
+
+#sector-length-table {
+    overflow-y: hidden;
+    /* Hide vertical scrollbar */
+    overflow-x: hidden;
+    /* Hide horizontal scrollbar */
+}

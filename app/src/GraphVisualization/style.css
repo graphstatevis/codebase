@@ -1,0 +1,149 @@
+@import '~material-design-icons/iconfont/material-icons.css';
+@import '../../node_modules/d3-context-menu/css/d3-context-menu.css';
+div.tooltip,
+div.tooltip-2 {
+    background-color: white;
+    border: 1px #ccc solid;
+    border-radius: 4px;
+    font: 15px sans-serif;
+    font-weight: 600;
+    height: auto;
+    padding: 2px;
+    pointer-events: none;
+    position: absolute;
+    text-align: center;
+    width: auto;
+}
+
+#graph-vis-widget {
+    min-width: 700px;
+    overflow: hidden !important;
+}
+
+#graph-vis-widget .material-icons {
+    background: white;
+    border-radius: 5px;
+    border: solid gray 1px;
+}
+
+#graph-vis-widget__div {
+    flex: 1;
+    width: 100%;
+    position: absolute !important;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+
+.node {
+    cursor: pointer;
+}
+
+.d3-context-menu {
+    min-width: 50px !important;
+}
+
+#graph-vis-widget__zoom_out-icon,
+#graph-vis-widget__toggle-parity-coloring,
+#graph-vis-widget__toggle-simulation,
+#graph-vis-widget__save_graph-icon,
+#distillation__icon,
+#graph-vis-widget__share_url-icon {
+    position: sticky;
+    align-self: flex-start;
+    cursor: pointer;
+    z-index: 999;
+    left: 15px;
+}
+
+#ibm-q-logo {
+    display: none;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    width: 180px;
+    z-index: 999;
+    cursor: pointer;
+}
+
+#graph-vis-widget__toggle-simulation img {
+    margin-left: 3px;
+    margin-top: -2px;
+}
+
+
+/* ICONS THAT NEED TO BE POSITIONED PROPERLY */
+
+#graph-vis-widget__share_url-icon,
+#graph-vis-widget__save_graph-icon {
+    width: 26px;
+}
+
+#graph-vis-widget__toggle-simulation {
+    background: white;
+    border-radius: 5px;
+    border: solid gray 1px;
+    width: 26px;
+    height: 26px;
+}
+
+
+/* ICON STYLING */
+
+#distillation__icon {
+    background: white;
+    border-radius: 5px;
+    border: solid gray 1px;
+}
+
+#distillation__icon img {
+    margin-top: -5px;
+    width: 25px !important;
+    height: 20px !important;
+}
+
+#graph-meta-data {
+    position: absolute;
+    top: 5px;
+    left: 15px;
+    z-index: 1000;
+    border: 1px #aaa solid;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+#zoomRectangle {
+    cursor: grab;
+}
+
+.disable-select {
+    user-select: none;
+    /* supported by Chrome and Opera */
+    -webkit-user-select: none;
+    /* Safari */
+    -html-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+}
+
+#graph-vis-svg {
+    /*background-color: #eee;*/
+    /* width: 100%;
+  height: 100%; */
+}
+
+.annotation-note-bg {
+    fill-opacity: 0.9 !important;
+    fill: #eee;
+}
+
+#graph-properties-title {
+    font-weight: bold;
+}
+
+#downloadAnchorElem {
+    display: none;
+}

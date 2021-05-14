@@ -1,0 +1,27 @@
+#noise-probability-slider {
+    position: absolute;
+    width: 150px;
+    height: 20px;
+    top: 55px;
+    left: 65px;
+}
+
+#noise-probability-text {
+    position: absolute;
+    top: 25px;
+    left: 55px;
+}
+
+#enforce-sld-button {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    height: 40px;
+}
+
+#histogram-visualization {
+    padding-left: 5px;
+}

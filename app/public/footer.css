@@ -1,0 +1,15 @@
+#copy-right {
+  font-size: x-small;
+  margin-right: 10px;
+}
+
+#footer {
+  display: flex;
+  padding-bottom: 4px;
+  padding-left: 5px;
+}
+
+#imprint-data-protection-policy-link {
+  cursor: pointer;
+  font-size: x-small;
+}
