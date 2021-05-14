@@ -1,6 +1,6 @@
 # GraphVis Application
 
-[![GraphStateVis](https://github.com/GraphStateVis/code-base/blob/main/app/assets/gifs/graphvis_app.gif?raw=true)](https://graphstatevis.github.io/app)
+[![GraphStateVis](https://github.com/GraphStateVis/codebase/blob/main/app/assets/gifs/graphvis_app.gif?raw=true)](https://graphstatevis.github.io/app)
 
 ## Installation
 
