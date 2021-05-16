@@ -1586,11 +1586,10 @@ export default class GraphVisualizationWidget extends CustomWidget implements IM
       GraphTemplates.Star,
       GraphTemplates.Pusteblume,
       GraphTemplates.BellPairs,
-      GraphTemplates.Wheel,
+      GraphTemplates.Cylinder,
       GraphTemplates.Moebius,
-      GraphTemplates.Ring,
-      GraphTemplates.CompleteGraph,
-      
+      GraphTemplates.Cycle,
+      GraphTemplates.CompleteGraph,      
     ];
     for (let i = start; i <= end; i++) {
       console.log(`>>> LOAD SLD Cache for # nodes: ${i}`);

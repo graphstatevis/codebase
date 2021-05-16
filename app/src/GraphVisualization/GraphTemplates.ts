@@ -89,7 +89,6 @@ export class GraphTemplates {
     // Initialize Nodes
     for (let index = startIndex; index <= vertices; index++) {
       graph.nodes.push({
-        // group: Math.round(Math.random()), // 0 or 1
         id: index,
         optionalLabel: 'Optional Node Label'
       });
@@ -109,7 +108,7 @@ export class GraphTemplates {
       edges : [],
       nodes: [],
       parameterized: true,
-      title: 'Complete Graph',
+      title: 'Complete',
     };
 
     for (let i = startIndex; i <= vertices; i++) {
@@ -162,7 +161,7 @@ export class GraphTemplates {
   /*
    * Info: https://bit.ly/2SFX14L
    */  
-  public static Ring(vertices?: number, startIndex?: number): Graph {
+  public static Cycle(vertices?: number, startIndex?: number): Graph {
     if (!startIndex) startIndex = 1;
     if (!vertices) vertices = 5;
 
@@ -170,7 +169,7 @@ export class GraphTemplates {
       edges : [],
       nodes: [],
       parameterized: true,
-      title: 'Ring',
+      title: 'Cycle',
     };
 
     for (let i = 1; i <= vertices; i++) {
@@ -289,7 +288,7 @@ export class GraphTemplates {
   /** 
    * Info: https://en.wikipedia.org/wiki/M%C3%B6bius_ladder
    */
-  public static Wheel(vertices?: number, startIndex?: number): Graph {
+  public static Cylinder(vertices?: number, startIndex?: number): Graph {
     if (!startIndex) startIndex = 1;
     if (!vertices) vertices = 6;
     if (vertices % 2 !== 0) vertices -= 1;
@@ -298,7 +297,7 @@ export class GraphTemplates {
       edges : [],
       nodes: [],
       parameterized: true,
-      title: 'Wheel',
+      title: 'Cylinder',
     };
 
     for (let i = 1; i < vertices; i++) {
@@ -345,7 +344,15 @@ export class GraphTemplates {
   }
 
   public static get All(): ((vertices?: number, start?: number) => Graph)[] {
-    return [this.CompleteGraph, this.Star, this.Pusteblume,
-      this.BellPairs,  this.Wheel,  this.Moebius, this.Ring , this.Random ];
+    return [
+      this.BellPairs,  
+      this.Cycle , 
+      this.Cylinder, 
+      this.Moebius, 
+      this.Pusteblume, 
+      this.Star, 
+      this.CompleteGraph, 
+      this.Random 
+    ];
   }
 }
