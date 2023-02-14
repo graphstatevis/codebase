@@ -46,3 +46,18 @@ To change the folder (domain) to e.g. `https://anydomain.xyz/graphstatevis/`, th
 5. Run `npm run production` (again)
 6. Copy content of folder `./build/` on the webserver into the folder `https://anydomain.xyz/graphstatevis/`
 7. DONE!
+
+## Citing this paper that is related to this prototype
+
+```bibtex
+@inproceedings{miller2021graphstatevis,
+  author    = {Matthias Miller and Daniel Miller},
+  booktitle = {{IEEE} International Conference on Quantum Computing and Engineering ({QCE})},
+  title     = {{GraphStateVis: Interactive Visual Analysis of Qubit Graph States and their Stabilizer Groups}}, 
+  year      = {2021},
+  pages     = {378--384},
+  publisher = {{IEEE}},
+  doi       = {10.1109/QCE52317.2021.00057}
+}
+```
+
