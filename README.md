@@ -61,3 +61,5 @@ To change the folder (domain) to e.g. `https://anydomain.xyz/graphstatevis/`, th
 }
 ```
 
+## License
+Released under MIT License. See the [LICENSE](LICENSE) file for details. The prototype was developed by Matthias Miller from the [Data Analysis and Visualization Group](https://www.vis.uni-konstanz.de/) at the University Konstanz.
